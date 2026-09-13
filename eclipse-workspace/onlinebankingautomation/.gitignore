@@ -1,0 +1,49 @@
+# Maven
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled Java files
+
+*.class
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Test reports
+
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# Temporary files
+
+*.tmp
+
+# Environment / credentials
+
+.env
+config.properties
+secrets.properties
+credentials.properties

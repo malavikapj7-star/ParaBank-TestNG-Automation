@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="Online Banking Test Suite">
+
+    <test name="Online Banking Tests">
+
+        <classes>
+
+            <class name="Tests.logintest"/>
+            <class name="Tests.AccountTest"/>
+            <class name="Tests.BeneficiaryTest"/>
+            <class name="Tests.FundTransferTest"/>
+            <class name="Tests.TransactionHistoryTest"/>
+            <class name="Tests.BrowserTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
+
