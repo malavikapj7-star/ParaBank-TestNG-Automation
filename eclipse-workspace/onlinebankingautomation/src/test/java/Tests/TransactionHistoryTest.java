@@ -32,9 +32,10 @@ public class TransactionHistoryTest extends BaseTest {
         FundTransferPage transferPage = new FundTransferPage(driver);
 
         transferPage.transfer(
-                "16119",
-                "17007",
-                "100"
+                "14343",
+                "15675",
+                "500"
+            
         );
 
         // Open Find Transactions
@@ -45,10 +46,10 @@ public class TransactionHistoryTest extends BaseTest {
                 new TransactionPage(driver);
 
         // Select source account
-        transactionPage.selectAccount("16119");
+        transactionPage.selectAccount("15675");
 
         // Search transaction by amount
-        transactionPage.searchByAmount("100");
+        transactionPage.searchByAmount("500");
 
         // Verify result container
         Assert.assertTrue(

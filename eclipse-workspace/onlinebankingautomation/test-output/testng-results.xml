@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-15T13:53:00 IST" name="Online Banking Test Suite" finished-at="2026-09-15T13:53:24 IST" duration-ms="23699">
+    <groups>
+    </groups>
+    <test started-at="2026-09-15T13:53:00 IST" name="Online Banking Tests" finished-at="2026-09-15T13:53:24 IST" duration-ms="23699">
+      <class name="Tests.TransactionHistoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.TransactionHistoryTest@367ffa75]" started-at="2026-09-15T13:53:16 IST" name="setUp" finished-at="2026-09-15T13:53:18 IST" duration-ms="2522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTransactionHistory()[pri:0, instance:Tests.TransactionHistoryTest@367ffa75]" started-at="2026-09-15T13:53:18 IST" name="verifyTransactionHistory" finished-at="2026-09-15T13:53:22 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.TransactionHistoryTest@367ffa75]" started-at="2026-09-15T13:53:22 IST" name="tearDown" finished-at="2026-09-15T13:53:22 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TransactionHistoryTest -->
+      <class name="Tests.FundTransferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.FundTransferTest@2cd76f31]" started-at="2026-09-15T13:53:11 IST" name="setUp" finished-at="2026-09-15T13:53:13 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validFundTransferTest()[pri:0, instance:Tests.FundTransferTest@2cd76f31]" started-at="2026-09-15T13:53:13 IST" name="validFundTransferTest" finished-at="2026-09-15T13:53:16 IST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validFundTransferTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.FundTransferTest@2cd76f31]" started-at="2026-09-15T13:53:16 IST" name="tearDown" finished-at="2026-09-15T13:53:16 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.FundTransferTest -->
+      <class name="Tests.logintest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.logintest@3c41ed1d]" started-at="2026-09-15T13:53:00 IST" name="setUp" finished-at="2026-09-15T13:53:03 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogintest()[pri:0, instance:Tests.logintest@3c41ed1d]" started-at="2026-09-15T13:53:03 IST" name="validLogintest" finished-at="2026-09-15T13:53:04 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.logintest@3c41ed1d]" started-at="2026-09-15T13:53:04 IST" name="tearDown" finished-at="2026-09-15T13:53:04 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.logintest -->
+      <class name="Tests.BeneficiaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.BeneficiaryTest@40005471]" started-at="2026-09-15T13:53:08 IST" name="setUp" finished-at="2026-09-15T13:53:10 IST" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inspectBeneficiaryPage()[pri:0, instance:Tests.BeneficiaryTest@40005471]" started-at="2026-09-15T13:53:10 IST" name="inspectBeneficiaryPage" finished-at="2026-09-15T13:53:11 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inspectBeneficiaryPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BeneficiaryTest@40005471]" started-at="2026-09-15T13:53:11 IST" name="tearDown" finished-at="2026-09-15T13:53:11 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BeneficiaryTest -->
+      <class name="Tests.AccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.AccountTest@3d285d7e]" started-at="2026-09-15T13:53:04 IST" name="setUp" finished-at="2026-09-15T13:53:06 IST" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAccountDetailsDisplayed()[pri:0, instance:Tests.AccountTest@3d285d7e]" started-at="2026-09-15T13:53:06 IST" name="verifyAccountDetailsDisplayed" finished-at="2026-09-15T13:53:07 IST" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountDetailsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AccountTest@3d285d7e]" started-at="2026-09-15T13:53:07 IST" name="tearDown" finished-at="2026-09-15T13:53:08 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AccountTest -->
+      <class name="Tests.BrowserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.BrowserTest@49438269]" started-at="2026-09-15T13:53:22 IST" name="setUp" finished-at="2026-09-15T13:53:24 IST" duration-ms="2057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openParaBank()[pri:0, instance:Tests.BrowserTest@49438269]" started-at="2026-09-15T13:53:24 IST" name="openParaBank" finished-at="2026-09-15T13:53:24 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openParaBank -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BrowserTest@49438269]" started-at="2026-09-15T13:53:24 IST" name="tearDown" finished-at="2026-09-15T13:53:24 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BrowserTest -->
+    </test> <!-- Online Banking Tests -->
+  </suite> <!-- Online Banking Test Suite -->
+</testng-results>

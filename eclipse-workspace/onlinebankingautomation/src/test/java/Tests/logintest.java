@@ -16,46 +16,31 @@ public class logintest extends BaseTest {
 
 	    Loginpage loginPage = new Loginpage(driver);
 
-	    System.out.println("Username from config: "
-	            + ConfigReader.getProperty("username"));
+	    String username = ConfigReader.getProperty("username");
+	    String password = ConfigReader.getProperty("password");
 
-	    System.out.println("Password loaded: "
-	            + (ConfigReader.getProperty("password") != null));
+	    System.out.println("Username: [" + username + "]");
+	    System.out.println("Password exists: " + (password != null));
+	    System.out.println("Password length: " +
+	            (password == null ? 0 : password.length()));
 
-	    loginPage.login(
-	            ConfigReader.getProperty("username"),
-	            ConfigReader.getProperty("password")
-	    );
+	    loginPage.enterUsername(username);
+	    loginPage.enterPassword(password);
 
-	    System.out.println("========== AFTER LOGIN ==========");
-	    System.out.println("URL: " + driver.getCurrentUrl());
-	    System.out.println("TITLE: " + driver.getTitle());
+	    System.out.println("Username field value: [" +
+	            driver.findElement(By.name("username")).getAttribute("value") + "]");
 
-	    System.out.println("PAGE TEXT:");
-	    System.out.println(
-	            driver.findElement(By.tagName("body")).getText()
-	    );
+	    System.out.println("Password field length: " +
+	            driver.findElement(By.name("password")).getAttribute("value").length());
 
-	    System.out.println("=================================");
+	    loginPage.clickLogin();
+
+	    System.out.println("URL after login: " + driver.getCurrentUrl());
 
 	    Assert.assertTrue(
-	            driver.getCurrentUrl().contains("overview.htm"),
-	            "Login did not reach Accounts Overview"
+	            loginPage.isLoginSuccessful(),
+	            "Login failed"
 	    );
 	}
- //   @Test
-   // public void invalidLoginTest() {
 
-      //  Loginpage loginPage = new Loginpage(driver);
-
-      //  loginPage.login(
-       //         "wrong_username",
-      //          "wrong_password"
-      //  );
-
-      //  Assert.assertTrue(
-       //         loginPage.isLoginErrorDisplayed(),
-      //          "Login error was not displayed"
-    //    );
- //   }
 }

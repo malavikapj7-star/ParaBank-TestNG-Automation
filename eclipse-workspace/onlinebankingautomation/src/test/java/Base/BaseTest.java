@@ -15,7 +15,7 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
 
-        ConfigReader.loadProperties();
+    	ConfigReader.loadProperties();
 
         String browser = ConfigReader.getProperty("browser");
         String url = ConfigReader.getProperty("url");

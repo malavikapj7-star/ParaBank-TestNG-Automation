@@ -30,7 +30,7 @@ public class FundTransferTest extends BaseTest {
                 new FundTransferPage(driver);
 
         transferPage.transfer
-        ("16119", "17007", "100");
+        ("14343", "15675", "500");
 
         Assert.assertTrue(
                 transferPage.isTransferSuccessful(),
